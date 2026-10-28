@@ -1,4 +1,4 @@
-pipeline{
+rodpipeline{
     agent any
     stages{
         stage('BUILD'){
@@ -6,12 +6,12 @@ pipeline{
             echo 'Build'
         }
         }
-        stage('test'){
+        stage('test preprod'){
             steps {
                 echo 'testing  uiknbh'
             }
         }
-         stage('deploy'){
+         stage('deploy prod'){
             steps {
                 echo 'deploy'
         }
