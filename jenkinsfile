@@ -6,12 +6,12 @@ rodpipeline{
             echo 'Build'
         }
         }
-        stage('test preprod'){
+        stage(' preprod'){
             steps {
                 echo 'testing'
             }
         }
-         stage('deploy prod'){
+         stage('prod'){
             steps {
                 echo 'deploy'
         }
