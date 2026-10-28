@@ -8,7 +8,7 @@ rodpipeline{
         }
         stage('test preprod'){
             steps {
-                echo 'testing  uiknbh'
+                echo 'testing'
             }
         }
          stage('deploy prod'){
